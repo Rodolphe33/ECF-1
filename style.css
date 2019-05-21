@@ -1,0 +1,250 @@
+/*   style CSS ECF1   */
+body {
+   font-family: 'Open Sans', sans-serif;
+   background: linear-gradient(0deg, #bbb, #fff);
+   height: 100%;
+   /* margin: 0 auto; */
+
+}
+
+header {
+   width: 100%;
+   height: 60px;
+   background-color: #4a4a4a;
+   color: #fff;
+   flex: 1;
+   margin: 0;
+   padding: 0 10px;
+   display: flex;
+   align-items: center;
+
+}
+
+.recherche {
+   align-items: flex-end;
+   flex: 6;
+   align-content: space-around;
+   /* margin: 0 0 0 1400px; */
+   text-align: right;
+}
+
+nav {
+   background-color: #32c2cd;
+   width: 250px;
+   height: 100vh;
+   margin: 0;
+   color: #FFF;
+   padding: 10px;
+   justify-content: center;
+
+}
+
+h2 {
+   margin: 0;
+   width: 250px;
+}
+
+main {
+   height: 100%;
+   display: flex;
+}
+
+.menuP1 {
+   height: 40px;
+   color: #fff;
+   text-align: left;
+}
+
+.menuP2,
+.menuP3 {
+   height: 20px;
+   color: #fff;
+   text-align: left;
+}
+
+.menuSec {
+   height: 200px;
+   width: 100%;
+   margin: 10px 20px;
+}
+
+.menu {
+   display: flex;
+   width: 100%;
+   margin: 10px 10px;
+   height: 60px;
+   text-align: center;
+   align-items: center;
+   background-color: #fff;
+   box-shadow: 1px 1px 12px #555;
+}
+
+.titre {
+   margin: 30px 20px;
+}
+
+.vueGen {
+   display: flex;
+   height: 200px;
+   width: 100%;
+   margin: 10px 20px;
+}
+
+.art {
+   display: flex;
+   height: 300px;
+   width: 100%;
+   margin: 10px 20px;
+}
+
+section {
+   width: 100%;
+   /* display: inline; */
+   background: linear-gradient(0deg, #bbb, #fff);
+}
+
+.iconG,
+.iconG1,
+.iconG2,
+.iconG3 {
+   width: 350px;
+   height: 180px;
+   margin: 10px 10px;
+   background-color: #fff;
+   flex: 1;
+   text-align: center;
+   display: flex;
+   font-size: 30px;
+   box-shadow: 1px 1px 12px #555;
+}
+
+#search {
+   margin-right: 0;
+}
+
+
+.bouton {
+   width: 85px;
+   height: 30px;
+   background: #e6e6e6;
+   border-radius: 20px 20px 20px 20px;
+   border: none;
+   margin: 10px;
+
+}
+
+
+
+.article1 {
+   background-color: #fff;
+   margin: 10px 10px;
+   width: 400px;
+   flex: 1;
+   height: 400px;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 1px 1px 12px #555;
+}
+
+.article2 {
+   background-color: #fff;
+   margin: 10px 10px;
+   width: 800px;
+   flex: 2;
+   height: 400px;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 1px 1px 12px #555;
+}
+
+
+.iconA1 {
+   background-color: #fb6e51;
+   text-align: center;
+   margin: 10px 10px;
+   padding: 25px;
+   color: #fff;
+   height: 200px;
+
+}
+
+.iconA2 {
+   background-color: #32c2cd;
+   text-align: center;
+   margin: 10px 10px;
+   color: #ffffff;
+   padding: 25px;
+   height: 200px;
+}
+
+p {
+   margin: 10px 10px;
+
+}
+
+.icoCoul {
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+   color: #fff;
+   background-color: #32d088;
+   text-align: center;
+   margin: 10px 10px;
+   align-items: center;
+   justify-content: center;
+}
+
+.icoCoul1 {
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+   color: #fff;
+   background-color: #32c2cd;
+   text-align: center;
+   margin: 10px 10px;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.icoCoul2 {
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+   color: #fff;
+   background-color: #fb6e51;
+   margin: 10px 10px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+
+}
+
+.icoCoul3 {
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+   color: #fff;
+   background-color: #f5b252;
+   text-align: center;
+   margin: 10px 10px;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 1px 1px 12px #555;
+}
+
+
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media (min-width: 740px) and (max-width: 850px) {
+   nav {
+      display: none;
+   }
+}
+
+@media (min-width: 560px) and (max-width: 7400px) {
+   nav {
+      display: none;
+   }
+   
+}
